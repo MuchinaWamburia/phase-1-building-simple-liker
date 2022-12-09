@@ -16,7 +16,8 @@ function addLike(event) {
       targetHeart.classList.add('activated-heart')
       targetHeart.textContent = FULL_HEART;
     })
-    .catch(function (error) {
+  
+    .catch(()=>function (error) {
       document.querySelector('#modal').classList.remove('hidden')
       setTimeout(function () {
         document.querySelector('#modal').classList.add('hidden')

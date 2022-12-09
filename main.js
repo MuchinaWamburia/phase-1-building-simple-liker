@@ -20,7 +20,7 @@ function addLike(event) {
       document.querySelector('#modal').classList.remove('hidden')
       setTimeout(function () {
         document.querySelector('#modal').classList.add('hidden')
-      }, 1000)
+      }, 3000)
     });
 }
 
